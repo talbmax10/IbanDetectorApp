@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">كاشف الإيبان</string>
+    
+    <!-- Main Activity -->
+    <string name="welcome_title">مرحباً بك في كاشف الإيبان</string>
+    <string name="welcome_subtitle">اكتشف والتحقق من رقم الإيبان بسهولة</string>
+    <string name="scan_with_camera">مسح بالكاميرا</string>
+    <string name="enter_manually">إدخال يدوي</string>
+    <string name="view_history">السجل</string>
+    
+    <!-- Camera Scan Activity -->
+    <string name="camera_title">مسح الإيبان</string>
+    <string name="camera_instruction">وجه الكاميرا نحو رقم الإيبان</string>
+    <string name="camera_permission_required">يجب منح إذن الكاميرا للمتابعة</string>
+    <string name="grant_permission">منح الإذن</string>
+    <string name="camera_not_available">الكاميرا غير متاحة</string>
+    
+    <!-- Manual Entry -->
+    <string name="enter_iban">أدخل رقم الإيبان</string>
+    <string name="iban_hint">IQXX XXXX XXXX XXXX XXXX XX</string>
+    <string name="verify_button">تحقق</string>
+    <string name="clear_button">مسح</string>
+    
+    <!-- IBAN Validation -->
+    <string name="iban_valid">الإيبان صحيح ✓</string>
+    <string name="iban_invalid">الإيبان غير صحيح ✗</string>
+    <string name="iban_detected">تم اكتشاف الإيبان!</string>
+    <string name="country_label">الدولة:</string>
+    <string name="length_label">الطول:</string>
+    <string name="format_label">التنسيق:</string>
+    
+    <!-- Actions -->
+    <string name="copy_iban">نسخ</string>
+    <string name="save_iban">حفظ</string>
+    <string name="copied_to_clipboard">تم النسخ للحافظة</string>
+    <string name="saved_to_history">تم الحفظ في السجل</string>
+    <string name="already_saved">محفوظ مسبقاً</string>
+    
+    <!-- History Activity -->
+    <string name="history_title">سجل الإيبانات</string>
+    <string name="no_history">لا يوجد سجل</string>
+    <string name="no_history_message">لم تقم بحفظ أي إيبان بعد</string>
+    <string name="delete_confirmation">هل تريد حذف هذا الإيبان؟</string>
+    <string name="delete_all">حذف الكل</string>
+    <string name="delete">حذف</string>
+    <string name="cancel">إلغاء</string>
+    <string name="search_hint">بحث في الإيبانات...</string>
+    
+    <!-- Countries -->
+    <string name="country_iq">العراق</string>
+    <string name="country_sa">السعودية</string>
+    <string name="country_ae">الإمارات العربية المتحدة</string>
+    <string name="country_kw">الكويت</string>
+    <string name="country_bh">البحرين</string>
+    <string name="country_qa">قطر</string>
+    <string name="country_om">عمان</string>
+    <string name="country_jo">الأردن</string>
+    <string name="country_eg">مصر</string>
+    <string name="country_lb">لبنان</string>
+    <string name="country_unknown">غير معروف</string>
+    
+    <!-- Errors -->
+    <string name="error_invalid_length">طول الإيبان غير صحيح</string>
+    <string name="error_invalid_format">تنسيق الإيبان غير صحيح</string>
+    <string name="error_invalid_country">رمز الدولة غير مدعوم</string>
+    <string name="error_invalid_checksum">رقم التحقق غير صحيح</string>
+    <string name="error_empty_iban">الرجاء إدخال رقم الإيبان</string>
+    <string name="error_scanning">حدث خطأ أثناء المسح</string>
+    
+    <!-- Common -->
+    <string name="close">إغلاق</string>
+    <string name="back">رجوع</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="ok">موافق</string>
+</resources>
